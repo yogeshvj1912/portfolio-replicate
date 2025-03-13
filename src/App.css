@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor:context-menu;
+  
+
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 45px 90px;
+  position: relative;
+}
+#light-on{
+  background-color: black;
+  color: white;
+  
+}
+.designer-name{
+  position: absolute;
+  right: 30px;
+  bottom:100px;
+  font-size: 12px;
+  font-weight: 500;
+  padding:3px 0 3px 25px;
+  border-left: 4px solid black;
+  transform: rotate(270deg);
+}
+.header-container {
+  width: 100%;
+  display: flex;
+
+
+}
+
+.header-tags {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.header-tags img {
+  width: 25px;
+  height: 28px;
+  margin-right: 15px;
+  
+}
+
+
+
+.link-tags {
+
+  width: 45%;
+  font-weight: 500;
+  font-size: 16px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.link{
+all: unset;
+}
+
+.link-tags button{
+  all: unset;
+}
+.link-tags button img {
+  width: 30px;
+  height: 30px;
+}
+
+.home-container {
+  width: 100%;
+  height: 92%;
+  display: flex;
+}
+
+.home-icons {
+  width: 8%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+
+#border-on{
+  border-color: white;
+}
+
+.home-icons img {
+  width: 25px;
+  height: 25px;
+  margin: 4px;
+  z-index: 1;
+}
+
+#home-icon-on img{
+  filter: invert(1);
+}
+
+.home-inner-box {
+  width: 52%;
+  height: 100%;
+  padding-top: 60px;
+  background-color: DF580C;
+}
+
+.home-names {
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.home-names p:first-child {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  background-image: linear-gradient(to right, rgba(50, 246, 246, 1), rgba(166, 167, 159, 1));
+  text-align: center;
+  width: 155px;
+  padding: 10px 20px;
+  border-radius: 40px 30px 30px 0;
+}
+
+
+.home-name-tags{
+  display: flex;
+  margin:5px 0;
+
+}
+.home-name-tags span{
+  font-size: 45px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.home-name-tags h1{
+  font-size: 45px;
+ color: rgba(115, 115, 115, 1);
+border-bottom: 4px solid black;
+  margin-right: 10px;
+}
+.home-name-tags img{
+  padding-top: 10px;
+  width: 35px;
+  height: 50px;
+}
+
+.home-names p:nth-child(3){
+font-size: 25px;
+font-weight: 100;
+}
+.home-buttons {
+  width: 100%;
+  height: 50%;
+  padding: 20px 0;
+}
+
+.home-buttons button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 3px solid white;
+  margin: 18px 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.home-profile {
+  width: 40%;
+  height: 100%;
+  padding: 50px 0 0 40px;
+
+}
+
+.profile-image {
+  width: 100%;
+  height: 95%;
+  filter:drop-shadow(0 7px 15px rgba(255, 255, 255, 0.351));
+  
+}
+
+/* About style start here */
+
+.about-container{
+  display: flex;
+  width: 100%;
+  height: 92%;
+
+
+}
+
+.about{
+  width: 80%;
+  height: 100%;
+  padding:30px 45px 0 250px;
+  display: flex;
+  flex-direction: column;
+}
+.about p{
+  font-size: 15px;
+font-weight: 200;
+}
+
+.about div:nth-child(6){
+  width: 300px;
+  margin: 70px 280px 0;
+  border-bottom:1px solid black;
+}
+.about-heading{
+  display: flex;
+  padding:10px 70px 15px 0;
+  justify-content: space-between;
+
+}
+.about-heading div{
+  width: 70%;
+  border-bottom: 1px solid black;
+  margin-bottom:10px;
+}
+
+.image-vector3{
+  width: 10%;
+  height: 100%;
+}
+.image-vector3 img{
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  width:300px;
+  height: 630px;
+  filter:drop-shadow(-2px 7px 15px rgba(255, 255, 255, 0.351));
+}
+
+.image-vector1{
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  margin-top: 10px;
+  width: 300px;
+  height: 450px;
+  filter:drop-shadow(2px 1px 20px rgba(255, 255, 255, 0.333));
+}
+
+.image-vector4{
+  position: absolute;
+  left: 18%;
+  bottom: 0px;
+  width: 220px;
+  filter:drop-shadow(2px 1px 15px rgba(255, 255, 255, 0.351));
+}
+.image-vector5{
+  position: absolute;
+  right: 13%;
+  bottom: 0;
+  width: 270px;
+  filter:drop-shadow(1px 7px 10px rgba(255, 255, 255, 0.351));
+}
+
+
+.image-rectangle{
+  position: absolute;
+  left: 0;
+top: 50px;
+  width: 400px;
+}
+/* About style end here */
